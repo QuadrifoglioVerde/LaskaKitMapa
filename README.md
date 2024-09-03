@@ -1,4 +1,4 @@
-# LaskaKitMapa
+# LaskaKit Mapa
 Moje pouziti LaskaKit Mapy spolu s Home Assistantem
 
 Princip je takovy ze se stahnou udaje o desti a pokud neprsi na mape se zobrazuje teploata mest.
