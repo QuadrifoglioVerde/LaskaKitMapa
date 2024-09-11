@@ -7,7 +7,9 @@ Pokud je dest ve vic jak 2 mestech tak se zobrazuji ve smycce posledni 3 snimky 
 
 Mam volany webhook kazdych 10 minut, ale tohle si kazdy pripadne upravi po svem, pripadne to ohne cele.
 
-Mam k mape pripojeny i dalsi led pasek v tomto drzacku: https://www.thingiverse.com/thing:6037911
+K je mape pripojeny teplotni senzor a dalsi led pasek v tomto drzacku: https://www.thingiverse.com/thing:6037911
+
+Pokud se to nekomu nehodi tak si to hold musi z kodu vyhazet.
 
 Zdroje dat pro NodeRed:
 
