@@ -264,6 +264,16 @@ void setup() {
 void loop() {
   now = millis();
 
+  if (WiFi.status() != WL_CONNECTED) {
+    Serial.println("WiFi disconnected, attempting to reconnect...");
+    WiFi.disconnect();
+    WiFi.begin(ssid, heslo);
+    while (WiFi.status() != WL_CONNECTED) {
+      delay(500);
+    }
+    Serial.println("Reconnected to WiFi.");
+  }
+
   if (intEfekt_okraj == 1) {
     for (int i = 0; i < numOkraj; i++) {
       sp_update(i);
